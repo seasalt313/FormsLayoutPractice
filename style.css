@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  color: #A3A3A3;
+  font-size: 16px;
+  word-spacing: 0px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid grey;
+  margin: 0px;
+  background-color: #E2EEF4;
+}
+
+.row1, .row2, .row3 {
+  display: block;
+}
+
+
+.input {
+  display: block;
+  width: auto;
+  border: none;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+}
+
+#submit {
+  background-color: #8FBC5F;
+  padding: 10px 40px 10px 40px;
+  flex-wrap: nowrap;
+  color: white;
+  width: 40%;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px;
+  margin-left: 45%;
+}
+
+.container {
+  color: grey;
+  padding: 0;
+}
+
+.enter {
+  padding: 30px;
+  flex-grow: 1;
+  flex-basis: auto;
+  color: #A3A3A3;
+  display: inline-block;
+}
+
+/*.label {
+  display: block;
+}*/
+
+.name {
+  width: 50%;
+}
+
+.company {
+  width: 50%;
+}
+
+.phone {
+  width: 33.3%;
+}
+
+.email {
+  width: 33.3%;
+}
+
+.avail {
+  width: 33.3%;
+}
+
+.skills, .years, .color, .lang {
+  width: 25%;
+}
