@@ -2,36 +2,38 @@ body {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   color: #A3A3A3;
-  font-size: 16px;
+  font-size: 14px;
   word-spacing: 0px;
 
 }
 
 h1 {
   text-align: center;
+  font-weight: lighter;
 }
 
 section {
   background-color: white;
-  padding: 10px;
-  border: 1px solid grey;
+  padding: 15px;
+  /*border: 1px solid grey;*/
   margin: 0px;
   background-color: #E2EEF4;
 }
 
-.row1, .row2, .row3 {
+
+
+.row1, .row2, .row3, .input {
   display: block;
 }
 
 
 .input {
-  display: block;
   width: auto;
-  border: none;
 }
 
 input[type="text"] {
   box-sizing: border-box;
+  border: none;
 }
 
 #submit {
@@ -46,7 +48,52 @@ input[type="text"] {
 
 .btn {
   padding: 10px;
-  margin-left: 45%;
+  text-align: center;
+}
+
+span {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.lab {
+  display: inline-block;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lab span {
+  padding: 3%;
+}
+
+.thirds {
+  display: inline-block;
+  width: 33%
+}
+
+.thirds span {
+  padding: 4.5%;
+}
+
+.fourths {
+  display: inline-block;
+  width: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fourths span {
+  padding: 5.5%;
+}
+
+.row1 {
+  border-top: 1px solid lightgrey;
+}
+
+.row1, .row2, .row3, .btn {
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
 }
 
 .container {
@@ -55,37 +102,17 @@ input[type="text"] {
 }
 
 .enter {
-  padding: 30px;
+  padding: 18px;
   flex-grow: 1;
   flex-basis: auto;
   color: #A3A3A3;
   display: inline-block;
 }
 
-/*.label {
-  display: block;
+.name, .company, .phone, .email, .avail, .skills, .years, .color, .lang {
+  width: 99%;
+}
+
+/*.nm {
+  border-right: 1px solid lightgrey;
 }*/
-
-.name {
-  width: 50%;
-}
-
-.company {
-  width: 50%;
-}
-
-.phone {
-  width: 33.3%;
-}
-
-.email {
-  width: 33.3%;
-}
-
-.avail {
-  width: 33.3%;
-}
-
-.skills, .years, .color, .lang {
-  width: 25%;
-}
